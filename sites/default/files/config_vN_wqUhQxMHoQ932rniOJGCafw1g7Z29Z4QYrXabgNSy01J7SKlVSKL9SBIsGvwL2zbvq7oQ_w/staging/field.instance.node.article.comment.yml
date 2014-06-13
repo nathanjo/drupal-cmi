@@ -1,0 +1,32 @@
+id: node.article.comment
+uuid: 245f5dde-959c-4b38-9401-1e4d44a60758
+status: true
+langcode: en
+field_uuid: eef49525-8464-45c4-9129-4184c59bfd12
+field_name: comment
+entity_type: node
+bundle: article
+label: 'Comment settings'
+description: ''
+required: true
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_name: null
+    last_comment_timestamp: 0
+    last_comment_uid: 0
+    comment_count: 0
+default_value_function: ''
+settings:
+  default_mode: true
+  per_page: 50
+  form_location: true
+  anonymous: 0
+  subject: true
+  preview: 1
+dependencies:
+  entity:
+    - field.field.node.comment
+    - node.type.article
+field_type: comment

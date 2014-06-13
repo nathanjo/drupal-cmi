@@ -1,0 +1,11 @@
+uuid: a9a36807-1e84-4730-ba2a-42f2c6c31049
+name: 'Local: CMI Demo'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en

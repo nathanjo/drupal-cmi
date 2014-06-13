@@ -1,0 +1,13 @@
+id: user.user
+uuid: 3d229b85-6b78-4a02-ac56-86de79719b16
+targetEntityType: user
+bundle: user
+types:
+  - 'schema:Person'
+fieldMappings:
+  name:
+    properties:
+      - 'schema:name'
+dependencies:
+  module:
+    - user

@@ -1,0 +1,21 @@
+id: node.page.body
+uuid: a88dc423-c8ce-46bb-b600-a4999a4ace08
+status: true
+langcode: en
+field_uuid: eb3d5881-859e-49af-bc15-2108dc1645d1
+field_name: body
+entity_type: node
+bundle: page
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+dependencies:
+  entity:
+    - field.field.node.body
+    - node.type.page
+field_type: text_with_summary

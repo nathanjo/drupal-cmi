@@ -1,0 +1,18 @@
+id: taxonomy_term.tags
+uuid: 52fd14e8-1f44-4a66-b700-ed090ed121c4
+targetEntityType: taxonomy_term
+bundle: tags
+types:
+  - 'schema:Thing'
+fieldMappings:
+  name:
+    properties:
+      - 'schema:name'
+  description:
+    properties:
+      - 'schema:description'
+dependencies:
+  entity:
+    - taxonomy.vocabulary.tags
+  module:
+    - taxonomy
