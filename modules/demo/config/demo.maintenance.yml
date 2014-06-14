@@ -1,0 +1,17 @@
+// Set all values.
+\Drupal::config('system.performance')->setData(array(
+    'cache' => array(
+      'page' => array(
+        'enabled' => '1',
+        'max_age' => '0',
+      ),
+    ),
+    'preprocess' => array(
+      'css' => '0',
+      'js' => '0',
+    ),
+    'response' => array(
+      'gzip' => '0',
+    ),
+  ))
+  ->save();

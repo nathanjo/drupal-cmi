@@ -1,0 +1,5 @@
+name: CMI - DEMO
+description: DC SG 2014 - CMI DEMO
+core: 8.x
+type: module
+package: Demo
