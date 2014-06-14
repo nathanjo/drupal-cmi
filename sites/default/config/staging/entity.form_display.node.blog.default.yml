@@ -1,0 +1,40 @@
+id: node.blog.default
+uuid: 6f2ab71d-c5b5-46a7-9363-992afe93b809
+targetEntityType: node
+bundle: blog
+mode: default
+content:
+  title:
+    type: string
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+  path:
+    type: path
+    weight: 30
+    settings: {  }
+  body:
+    type: text_textarea_with_summary
+    weight: 31
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+  field_blog_image:
+    weight: 32
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    type: image_image
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - field.instance.node.blog.body
+    - field.instance.node.blog.field_blog_image
+    - node.type.blog
+  module:
+    - image
+    - path
+    - text

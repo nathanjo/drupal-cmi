@@ -1,0 +1,18 @@
+type: blog
+name: Blog
+description: ''
+help: ''
+title_label: Title
+settings:
+  node:
+    preview: 1
+    options:
+      status: true
+      promote: true
+      sticky: false
+      revision: false
+    submitted: true
+status: true
+uuid: 61880388-cfd8-4140-b808-0871d33ebf2e
+langcode: en
+dependencies: {  }

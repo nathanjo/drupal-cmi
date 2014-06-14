@@ -1,0 +1,35 @@
+id: node.blog.field_blog_image
+uuid: 6bd990d2-0715-49ef-b201-1fd3d830659d
+status: true
+langcode: en
+field_uuid: 92ab967e-a851-4fa2-881e-300f3b849536
+field_name: field_blog_image
+entity_type: node
+bundle: blog
+label: Image
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  file_extensions: 'png gif jpg jpeg'
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  max_resolution: ''
+  min_resolution: ''
+  default_image:
+    fid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  file_directory: ''
+  max_filesize: ''
+  handler: default
+dependencies:
+  entity:
+    - field.field.node.field_blog_image
+    - node.type.blog
+field_type: image
