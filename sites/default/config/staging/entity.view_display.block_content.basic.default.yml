@@ -1,0 +1,19 @@
+id: block_content.basic.default
+uuid: 947c0e9c-166b-41f2-b800-f7067b46d3f3
+targetEntityType: block_content
+bundle: basic
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - block_content.type.basic
+    - field.instance.block_content.basic.body
+  module:
+    - text

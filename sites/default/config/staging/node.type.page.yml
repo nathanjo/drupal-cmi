@@ -1,0 +1,18 @@
+type: page
+name: 'Basic page'
+description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+help: ''
+title_label: Title
+settings:
+  node:
+    options:
+      status: true
+      promote: false
+      sticky: false
+      revision: false
+    preview: 1
+    submitted: false
+status: true
+uuid: 01d9cb18-0f81-4b24-bb00-d4919eda2a46
+langcode: en
+dependencies: {  }

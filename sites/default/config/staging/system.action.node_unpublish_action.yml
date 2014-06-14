@@ -1,0 +1,11 @@
+id: node_unpublish_action
+label: 'Unpublish content'
+status: true
+uuid: 6a0fefc4-d710-46dc-9401-1b4bc8507772
+langcode: en
+dependencies:
+  module:
+    - node
+type: node
+plugin: node_unpublish_action
+configuration: {  }

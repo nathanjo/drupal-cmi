@@ -1,0 +1,31 @@
+id: seven_breadcrumbs
+weight: -2
+status: false
+uuid: ef0789b5-b0e6-465d-a03f-6317477bffa1
+langcode: en
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+theme: seven
+region: '-1'
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'

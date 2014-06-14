@@ -1,0 +1,17 @@
+id: block_content.body
+uuid: 0abb2a60-197d-461e-9132-506c7867f288
+status: true
+langcode: en
+name: body
+entity_type: block_content
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+dependencies:
+  module:
+    - block_content
+    - text

@@ -1,0 +1,35 @@
+id: node.article.field_image
+uuid: debb241c-e2ba-4e11-8300-c1e8f7418974
+status: true
+langcode: und
+field_uuid: 7ca9b7e3-e97c-4403-a607-7d6cf55e734d
+field_name: field_image
+entity_type: node
+bundle: article
+label: Image
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  file_directory: field/image
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  title_field: false
+  alt_field_required: false
+  title_field_required: false
+  default_image:
+    fid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: default
+dependencies:
+  entity:
+    - field.field.node.field_image
+    - node.type.article
+field_type: image

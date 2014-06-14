@@ -1,0 +1,30 @@
+id: user.user_picture
+uuid: b9efb8d3-d8f2-4658-ab00-c09d60beb13f
+status: true
+langcode: en
+name: user_picture
+entity_type: user
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    fid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: 0
+  display_default: 0
+  target_bundle: null
+module: image
+locked: false
+cardinality: 1
+translatable: false
+indexes:
+  target_id:
+    - target_id
+dependencies:
+  module:
+    - image
+    - user

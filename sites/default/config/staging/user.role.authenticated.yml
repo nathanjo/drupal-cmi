@@ -1,0 +1,16 @@
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+permissions:
+  - 'use text format plain_text'
+  - 'access content'
+  - 'use text format basic_html'
+  - 'access comments'
+  - 'post comments'
+  - 'skip comment approval'
+  - 'access site-wide contact form'
+  - 'access shortcuts'
+status: true
+uuid: feb457bf-091b-463b-8e01-1adfa6c7329b
+langcode: en
+dependencies: {  }

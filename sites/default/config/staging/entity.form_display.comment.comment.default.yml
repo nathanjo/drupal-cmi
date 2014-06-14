@@ -1,0 +1,24 @@
+id: comment.comment.default
+uuid: 44cb1584-8012-45fe-9a0f-154058fc4314
+targetEntityType: comment
+bundle: comment
+mode: default
+content:
+  author:
+    weight: -2
+  subject:
+    weight: -1
+  comment_body:
+    type: text_textarea
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+hidden: {  }
+status: true
+dependencies:
+  entity:
+    - comment.type.comment
+    - field.instance.comment.comment.comment_body
+  module:
+    - text

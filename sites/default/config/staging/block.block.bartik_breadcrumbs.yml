@@ -1,0 +1,31 @@
+id: bartik_breadcrumbs
+weight: -5
+status: false
+uuid: 017f77fc-58ca-4804-a000-e9945fd46f96
+langcode: en
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+theme: bartik
+region: '-1'
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: 0
+    contexts: {  }
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'

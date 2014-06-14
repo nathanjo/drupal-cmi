@@ -1,0 +1,8 @@
+id: footer
+label: Footer
+description: 'Use this for linking to site information.'
+status: true
+uuid: 2455d4cf-b7af-41ec-913f-63d3bf023690
+langcode: en
+dependencies: {  }
+locked: true

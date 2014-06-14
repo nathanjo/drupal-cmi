@@ -1,0 +1,20 @@
+id: node.page.default
+uuid: 2ce5a2a4-0944-4fe1-a546-70fffc0b573a
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: -4
+    settings: {  }
+hidden:
+  langcode: true
+status: true
+dependencies:
+  entity:
+    - field.instance.node.page.body
+    - node.type.page
+  module:
+    - text

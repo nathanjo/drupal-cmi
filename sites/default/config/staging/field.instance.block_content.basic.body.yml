@@ -1,0 +1,21 @@
+id: block_content.basic.body
+uuid: 0bf56953-d369-445d-af00-b5a66037c29f
+status: true
+langcode: en
+field_uuid: 0abb2a60-197d-461e-9132-506c7867f288
+field_name: body
+entity_type: block_content
+bundle: basic
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: false
+  text_processing: true
+dependencies:
+  entity:
+    - block_content.type.basic
+    - field.field.block_content.body
+field_type: text_with_summary

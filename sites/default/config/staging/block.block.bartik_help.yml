@@ -1,0 +1,31 @@
+id: bartik_help
+weight: 0
+status: true
+uuid: b0c5dae6-d486-4ec4-8b06-06e5024d7337
+langcode: en
+dependencies:
+  module:
+    - system
+  theme:
+    - bartik
+theme: bartik
+region: help
+plugin: system_help_block
+settings:
+  id: system_help_block
+  label: 'System Help'
+  provider: system
+  label_display: '0'
+  cache:
+    max_age: -1
+    contexts: {  }
+visibility:
+  path:
+    visibility: 0
+    pages: ''
+  role:
+    roles: {  }
+  node_type:
+    types:
+      article: '0'
+      page: '0'

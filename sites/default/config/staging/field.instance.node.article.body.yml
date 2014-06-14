@@ -1,0 +1,21 @@
+id: node.article.body
+uuid: db54533a-7bcc-4c31-be00-de509546b6e9
+status: true
+langcode: en
+field_uuid: 64933ccb-5006-403a-b700-b873a68e3907
+field_name: body
+entity_type: node
+bundle: article
+label: Body
+description: ''
+required: false
+default_value: {  }
+default_value_function: ''
+settings:
+  display_summary: true
+  text_processing: true
+dependencies:
+  entity:
+    - field.field.node.body
+    - node.type.article
+field_type: text_with_summary

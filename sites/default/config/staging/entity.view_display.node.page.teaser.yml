@@ -1,0 +1,22 @@
+id: node.page.teaser
+uuid: 086bd4fa-4e5c-458c-8855-85d1b4ceaec0
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: -4
+    settings:
+      trim_length: 600
+hidden:
+  langcode: true
+status: true
+dependencies:
+  entity:
+    - entity.view_mode.node.teaser
+    - field.instance.node.page.body
+    - node.type.page
+  module:
+    - text
