@@ -1,0 +1,8 @@
+*.htaccess
+sites/*/.htaccess
+sites/*/config/.htaccess
+.settings.php
+settings.php
+sites/*/settings.php
+sites/*/.settings.php
+
