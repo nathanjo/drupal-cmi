@@ -1,8 +1,0 @@
-id: html_year
-label: 'HTML Year'
-status: true
-uuid: 49cdfdaf-6387-4f4e-9d5a-90acdf6c9588
-langcode: en
-dependencies: {  }
-locked: true
-pattern: Y

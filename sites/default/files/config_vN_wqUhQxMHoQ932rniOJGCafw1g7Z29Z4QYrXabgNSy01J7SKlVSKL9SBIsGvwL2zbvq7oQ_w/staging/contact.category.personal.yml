@@ -1,9 +1,0 @@
-id: personal
-label: 'Personal contact form'
-recipients: {  }
-reply: ''
-weight: 0
-status: true
-uuid: 213c99bf-964a-4648-8d06-6d48f93c0f9c
-langcode: en
-dependencies: {  }
